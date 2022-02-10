@@ -1,0 +1,19 @@
+body{
+    background-color: #f1faee;
+}
+.login-card{
+    text-align: center;
+    width: 320px;
+    border-radius: 0.5rem;
+    top: 10;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 150px auto;
+    background-color: #a8dadc;
+    padding: 20px;
+}
+
+p{
+    font-weight: bold;
+}

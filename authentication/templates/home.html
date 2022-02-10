@@ -7,7 +7,13 @@
         Olá Admin: {{ user.username }}!
         <p><a href="{% url 'logout' %}">Sair</a></p>
 {% else %}
-  <p>You are not logged in</p>
-  <a href="{% url 'login' %}">Entrar</a>
+<div class="card" style="width: 18rem;">
+  <img src="..." class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Permissao Negada</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="{% url 'login' %}" class="btn btn-primary">Entrar</a>
+  </div>
+</div>
 {% endif %}
 {% endblock %}
